@@ -32,5 +32,4 @@ SmartBin adalah sistem tempat sampah pintar berbasis IoT yang mampu memilah samp
 | Servo Motor                 | 1      | Mengarahkan dan membuka tutup tempat sampah             |
 | Tempat Sampah Fisik         | 2      | Untuk sampah basah dan kering                           |
 | Breadboard & Kabel Jumper   | -      | Untuk penyambungan rangkaian                            |
-| Power Supply                | 1      | Catu daya sistem                                        |
 | Web Interface               | 1      | Menampilkan status tempat sampah secara real-time       |
