@@ -19,7 +19,7 @@ SmartBin adalah sistem tempat sampah pintar berbasis IoT yang mampu memilah samp
 
 ## Skema Blok Sistem (Visual)
 
-![Skema Blok Sistem](https://github.com/FerdinandTJ/IoTProject_SmartTrashBin/edit/main/IoT.jpg)
+![Skema Blok Sistem](https://github.com/FerdinandTJ/IoTProject_SmartTrashBin/blob/main/IoT.jpg)
 
 > Gambar di atas menggambarkan alur pemilahan dan pemantauan sampah mulai dari proses input oleh pengguna, pendeteksian jenis sampah, pengaturan servo, hingga deteksi penuh dan pengiriman status ke web.
 
