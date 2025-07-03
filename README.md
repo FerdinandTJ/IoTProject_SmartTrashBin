@@ -146,16 +146,7 @@ Berikut adalah implementasi rangkaian hardware yang telah dibuat:
 ### Video Demo Sistem
 🎥 **Demo Video**: 
 
-<!-- Opsi 1: Jika sudah upload ke GitHub issues/comments -->
-<!-- https://github.com/user-attachments/assets/video-id-here -->
-
-<!-- Opsi 2: Link langsung ke file video -->
-**[▶️ Tonton Video Demo](VideoDemo.mp4)**
-
-
-**📥 Download**: [VideoDemo.mp4](VideoDemo.mp4)
-
-> **💡 Cara menonton**: Klik link "Tonton Video Demo" di atas untuk membuka video, atau download file untuk menonton secara offline.
+**[▶️ Video Demo di Google Drive](https://drive.google.com/file/d/1SSqHGHf2D3U5HYs9fffNHdCTxxVARh_p/view?usp=sharing)**
 
 
 ### Hasil Pengujian
