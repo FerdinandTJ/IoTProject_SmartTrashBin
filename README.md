@@ -144,7 +144,10 @@ Berikut adalah implementasi rangkaian hardware yang telah dibuat:
 > **📌 Task 7: Pengujian Sistem dan Penyempurnaan**
 
 ### Video Demo Sistem
-🎥 **Demo Video**: [Video Demo.mp4](Video%20Demo.mp4)
+🎥 **Demo Video**: 
+
+https://user-images.githubusercontent.com/your-username/Video%20Demo.mp4
+
 
 ### Hasil Pengujian
 - ✅ **Test 1**: Deteksi kepenuhan sampah - **PASSED**
@@ -153,11 +156,10 @@ Berikut adalah implementasi rangkaian hardware yang telah dibuat:
 - ✅ **Test 4**: Pencatatan aktivitas harian - **PASSED**
 - ✅ **Test 5**: Responsifitas web interface - **PASSED**
 
-### Penyempurnaan yang Dilakukan
+### Penyempurnaan yang harus dilakukan
 1. **Kalibrasi Sensor**: Menyesuaikan threshold sensor ultrasonik
-2. **Optimisasi Web UI**: Meningkatkan responsifitas interface
-3. **Error Handling**: Menambahkan penanganan error koneksi
-4. **Power Management**: Optimisasi konsumsi daya sistem
+2. **Error Handling**: Menambahkan penanganan error koneksi
+3. **Power Management**: Optimisasi konsumsi daya sistem
 
 ---
 
@@ -198,7 +200,7 @@ Berikut adalah implementasi rangkaian hardware yang telah dibuat:
 ## 💻 Teknologi yang Digunakan
 
 - **Hardware**: ESP32, Sensor Ultrasonik HC-SR04, Servo Motor
-- **Programming**: C++ (Arduino Framework)
+- **Programming**: MicroPython
 - **Connectivity**: WiFi
 - **Web Interface**: HTML, CSS, JavaScript
 - **Protocol**: HTTP
@@ -238,5 +240,3 @@ Haekal1243
 Proyek ini dilisensikan di bawah [MIT License](LICENSE).
 
 ---
-
-**🌱 Bersama-sama menciptakan lingkungan yang lebih bersih dan pintar untuk masa depan yang berkelanjutan!**
