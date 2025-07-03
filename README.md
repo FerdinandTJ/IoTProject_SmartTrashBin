@@ -45,7 +45,6 @@ Mengurangi sentuhan langsung antara petugas kebersihan dengan tempat sampah keti
 | Sensor Ultrasonik HC-SR04 | 2 | Mendeteksi tingkat kepenuhan dan aktivitas buka-tutup |
 | Servo Motor | 1 | Mengontrol mekanisme buka-tutup tempat sampah |
 | Breadboard & Kabel Jumper | - | Untuk penyambungan rangkaian elektronik |
-| Power Supply | 1 | Sumber daya untuk seluruh sistem |
 
 ## 🎨 Diagram Sistem
 
@@ -124,6 +123,8 @@ Mengurangi sentuhan langsung antara petugas kebersihan dengan tempat sampah keti
 ## 👥 Tim Pengembang
 
 Proyek ini dikembangkan sebagai bagian dari mata kuliah Internet of Things (IoT).
+FerdinandTJ
+Haekal1243
 
 ## 📄 Lisensi
 
