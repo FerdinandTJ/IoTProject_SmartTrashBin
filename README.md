@@ -146,12 +146,16 @@ Berikut adalah implementasi rangkaian hardware yang telah dibuat:
 ### Video Demo Sistem
 🎥 **Demo Video**: 
 
-<video width="640" height="480" controls>
-  <source src="VideoDemo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<!-- Opsi 1: Jika sudah upload ke GitHub issues/comments -->
+<!-- https://github.com/user-attachments/assets/video-id-here -->
 
-*Jika video tidak dapat diputar, klik [di sini](VideoDemo.mp4) untuk mengunduh.*
+<!-- Opsi 2: Link langsung ke file video -->
+**[▶️ Tonton Video Demo](VideoDemo.mp4)**
+
+
+**📥 Download**: [VideoDemo.mp4](VideoDemo.mp4)
+
+> **💡 Cara menonton**: Klik link "Tonton Video Demo" di atas untuk membuka video, atau download file untuk menonton secara offline.
 
 
 ### Hasil Pengujian
@@ -188,15 +192,15 @@ Berikut adalah implementasi rangkaian hardware yang telah dibuat:
 ## 🚀 Instalasi dan Setup
 
 ### Prasyarat
-- Arduino IDE atau PlatformIO
+- Thonny Ide
 - ESP32 Development Board
 - Library yang diperlukan (sudah tercantum di Task 5)
 
 ### Langkah Instalasi
 1. Clone repository ini: `git clone [repository-url]`
-2. Install library yang diperlukan melalui Arduino IDE
+2. Install library yang diperlukan melalui Github Repository Servo Lib
 3. Konfigurasi WiFi credentials di file config
-4. Upload code ke ESP32 menggunakan Arduino IDE
+4. Upload code ke ESP32 menggunakan Thonny
 5. Akses web interface melalui IP address ESP32
 6. Sistem siap digunakan
 
