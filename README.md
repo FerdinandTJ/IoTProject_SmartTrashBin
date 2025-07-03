@@ -63,8 +63,8 @@ Mengurangi sentuhan langsung antara petugas kebersihan dengan tempat sampah keti
 - Power Supply 5V
 
 ### Software Requirements  
-- Arduino IDE atau PlatformIO
-- Library WiFi, WebServer, NewPing, Servo
+- Thonny IDE
+- Library Servo
 - Web Browser untuk akses interface
 
 ---
