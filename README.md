@@ -114,7 +114,7 @@ Berikut adalah implementasi rangkaian hardware yang telah dibuat:
 > **📌 Task 5: Implementasi Software**
 
 ### 📁 Repository Kode Lengkap
-**Link ke source code:** [GitHub Repository](https://github.com/YourUsername/SmartBin-IoT)
+**Link ke source code:** [GitHub Repository](https://github.com/FerdinandTJ/IoTProject_SmartTrashBin/blob/main/Code/main.py)
 
 ### 📚 Dependencies dan Library
 - **WiFi Library**: untuk konektivitas wireless
@@ -129,7 +129,7 @@ Berikut adalah implementasi rangkaian hardware yang telah dibuat:
 > **📌 Task 6: Integrasi Software + Hardware**
 
 ### 📁 Repository Integrasi Lengkap
-**Link ke integration code:** [GitHub Integration Branch](https://github.com/YourUsername/SmartBin-IoT/tree/integration)
+**Link ke integration code:** [GitHub Integration Branch](https://github.com/FerdinandTJ/IoTProject_SmartTrashBin/blob/main/Code/main.py)
 
 ### 📚 Library untuk Integrasi
 - **WiFi Library**: Konektivitas jaringan
@@ -147,11 +147,11 @@ Berikut adalah implementasi rangkaian hardware yang telah dibuat:
 🎥 **Demo Video**: 
 
 <video width="640" height="480" controls>
-  <source src="Video Demo.mp4" type="video/mp4">
+  <source src="VideoDemo.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
-*Jika video tidak dapat diputar, klik [di sini](Video%20Demo.mp4) untuk mengunduh.*
+*Jika video tidak dapat diputar, klik [di sini](VideoDemo.mp4) untuk mengunduh.*
 
 
 ### Hasil Pengujian
