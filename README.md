@@ -97,7 +97,7 @@ Mengurangi sentuhan langsung antara petugas kebersihan dengan tempat sampah keti
 ### Rangkaian Hardware
 Berikut adalah implementasi rangkaian hardware yang telah dibuat:
 
-![Hardware Implementation](Diagram.jpg)
+![Hardware Implementation](Rangkaian%20Hardware.jpg)
 
 ### Komponen Hardware yang Digunakan
 
@@ -146,7 +146,12 @@ Berikut adalah implementasi rangkaian hardware yang telah dibuat:
 ### Video Demo Sistem
 🎥 **Demo Video**: 
 
-https://user-images.githubusercontent.com/your-username/Video%20Demo.mp4
+<video width="640" height="480" controls>
+  <source src="Video Demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+*Jika video tidak dapat diputar, klik [di sini](Video%20Demo.mp4) untuk mengunduh.*
 
 
 ### Hasil Pengujian
