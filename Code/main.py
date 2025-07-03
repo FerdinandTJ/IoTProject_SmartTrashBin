@@ -232,4 +232,4 @@ try:
     main_program()
 except KeyboardInterrupt:
     servo.deinit()
-    print("\nProgram dihentikan oleh pengguna.")
+    print("\nProgram dihentikan oleh pengguna.")	

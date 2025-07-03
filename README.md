@@ -4,7 +4,23 @@
 [![ESP32](https://img.shields.io/badge/Platform-ESP32-red.svg)](https://www.espressif.com/en/products/socs/esp32)
 [![IoT](https://img.shields.io/badge/Category-IoT-green.svg)](#)
 
+## 📝 Daftar Task Proyek
+
+| Task | Status | Deskripsi |
+|------|--------|-----------|
+| **Task 1** | ✅ **Selesai** | Topik dan Penjelasan |
+| **Task 2** | ✅ **Selesai** | Diagram Blok Sistem |
+| **Task 3** | ✅ **Selesai** | Desain Sistem Lengkap UI/UX Software dan Hardware |
+| **Task 4** | ✅ **Selesai** | Implementasi Hardware |
+| **Task 5** | ✅ **Selesai** | Implementasi Software |
+| **Task 6** | ✅ **Selesai** | Integrasi Software + Hardware |
+| **Task 7** | ✅ **Selesai** | Pengujian Sistem dan Penyempurnaan |
+| **Task 8** | 🔄 **On Progress** | Laporan Akhir |
+
+---
+
 ## 📋 Deskripsi Singkat
+> **📌 Task 1: Topik dan Penjelasan**
 
 **SmartBin** adalah sistem tempat sampah pintar berbasis IoT yang dirancang untuk meningkatkan efisiensi pengelolaan sampah dan kebersihan lingkungan. Tempat sampah ini mampu mendeteksi tingkat kepenuhan sampah di dalamnya menggunakan sensor ultrasonic. 
 
@@ -37,7 +53,53 @@ Mengurangi sentuhan langsung antara petugas kebersihan dengan tempat sampah keti
 | **SDG 3** | Good Health and Well-Being | Mengurangi risiko penyebaran penyakit melalui sentuhan pada tempat sampah, berkontribusi pada peningkatan kesehatan dan higienitas publik |
 | **SDG 11** | Sustainable Cities and Communities | Mendukung upaya menciptakan kota yang lebih bersih, sehat, dan layak huni dengan solusi pengelolaan sampah yang inovatif |
 
-## 🔧 Komponen Hardware
+## 🔧 Spesifikasi Teknis
+
+### Hardware Requirements
+- ESP32 Development Board
+- Sensor Ultrasonik HC-SR04 (2 unit)
+- Servo Motor SG90
+- Breadboard dan Kabel Jumper
+- Power Supply 5V
+
+### Software Requirements  
+- Arduino IDE atau PlatformIO
+- Library WiFi, WebServer, NewPing, Servo
+- Web Browser untuk akses interface
+
+---
+
+## 🎨 Diagram Sistem
+> **📌 Task 2: Diagram Blok Sistem**
+
+### Flowchart Sistem
+![Flowchart](Flowchart.jpg)
+
+### Diagram Rangkaian
+![Diagram Rangkaian](Diagram.jpg)
+
+---
+
+## 🎯 Desain Sistem Lengkap
+> **📌 Task 3: Desain Sistem Lengkap UI/UX Software dan Hardware**
+
+### Simulasi Wokwi
+![Wokwi Diagram](WokwiDiagram.jpg)
+
+### Web Interface Design
+![Web UI](UIWeb.png)
+
+---
+
+## ⚡ Implementasi Hardware
+> **📌 Task 4: Implementasi Hardware**
+
+### Rangkaian Hardware
+Berikut adalah implementasi rangkaian hardware yang telah dibuat:
+
+![Hardware Implementation](Diagram.jpg)
+
+### Komponen Hardware yang Digunakan
 
 | Komponen | Jumlah | Fungsi |
 |----------|--------|--------|
@@ -46,19 +108,65 @@ Mengurangi sentuhan langsung antara petugas kebersihan dengan tempat sampah keti
 | Servo Motor | 1 | Mengontrol mekanisme buka-tutup tempat sampah |
 | Breadboard & Kabel Jumper | - | Untuk penyambungan rangkaian elektronik |
 
-## 🎨 Diagram Sistem
+---
 
-### Flowchart Sistem
-![Flowchart](Flowchart.jpg)
+## 💻 Implementasi Software
+> **📌 Task 5: Implementasi Software**
 
-### Diagram Rangkaian
-![Diagram Rangkaian](DiagramBlokSistem.jpg)
+### 📁 Repository Kode Lengkap
+**Link ke source code:** [GitHub Repository](https://github.com/YourUsername/SmartBin-IoT)
 
-### Simulasi Wokwi
-![Wokwi Diagram](WokwiDiagram.jpg)
+### 📚 Dependencies dan Library
+- **WiFi Library**: untuk konektivitas wireless
+- **WebServer Library**: untuk membuat web interface
+- **NewPing Library**: untuk sensor ultrasonik
+- **Servo Library**: untuk kontrol motor servo
+- **ArduinoJson Library**: untuk handling data JSON
 
-### Web Interface
-![Web UI](UIWeb.png)
+---
+
+## 🔗 Integrasi Software + Hardware
+> **📌 Task 6: Integrasi Software + Hardware**
+
+### 📁 Repository Integrasi Lengkap
+**Link ke integration code:** [GitHub Integration Branch](https://github.com/YourUsername/SmartBin-IoT/tree/integration)
+
+### 📚 Library untuk Integrasi
+- **WiFi Library**: Konektivitas jaringan
+- **WebServer Library**: Interface web
+- **NewPing Library**: Sensor ultrasonik
+- **Servo Library**: Kontrol motor servo
+- **ArduinoJson Library**: Data handling JSON
+
+---
+
+## 🧪 Pengujian Sistem dan Penyempurnaan
+> **📌 Task 7: Pengujian Sistem dan Penyempurnaan**
+
+### Video Demo Sistem
+🎥 **Demo Video**: [Video Demo.mp4](Video%20Demo.mp4)
+
+### Hasil Pengujian
+- ✅ **Test 1**: Deteksi kepenuhan sampah - **PASSED**
+- ✅ **Test 2**: Kontrol buka-tutup otomatis - **PASSED**  
+- ✅ **Test 3**: Notifikasi real-time ke website - **PASSED**
+- ✅ **Test 4**: Pencatatan aktivitas harian - **PASSED**
+- ✅ **Test 5**: Responsifitas web interface - **PASSED**
+
+### Penyempurnaan yang Dilakukan
+1. **Kalibrasi Sensor**: Menyesuaikan threshold sensor ultrasonik
+2. **Optimisasi Web UI**: Meningkatkan responsifitas interface
+3. **Error Handling**: Menambahkan penanganan error koneksi
+4. **Power Management**: Optimisasi konsumsi daya sistem
+
+---
+
+## 📄 Laporan Akhir
+> **📌 Task 8: Laporan Akhir (On Progress)**
+
+🔄 **Status**: Sedang dalam proses penyusunan laporan akhir lengkap
+
+---
 
 ## 📊 Cara Kerja Sistem
 
@@ -75,18 +183,17 @@ Mengurangi sentuhan langsung antara petugas kebersihan dengan tempat sampah keti
 ### Prasyarat
 - Arduino IDE atau PlatformIO
 - ESP32 Development Board
-- Library yang diperlukan:
-  - WiFi
-  - WebServer
-  - NewPing (untuk sensor ultrasonik)
-  - Servo
+- Library yang diperlukan (sudah tercantum di Task 5)
 
 ### Langkah Instalasi
-1. Clone repository ini
-2. Install library yang diperlukan
-3. Konfigurasi WiFi credentials
-4. Upload code ke ESP32
-5. Akses web interface melalui IP ESP32
+1. Clone repository ini: `git clone [repository-url]`
+2. Install library yang diperlukan melalui Arduino IDE
+3. Konfigurasi WiFi credentials di file config
+4. Upload code ke ESP32 menggunakan Arduino IDE
+5. Akses web interface melalui IP address ESP32
+6. Sistem siap digunakan
+
+---
 
 ## 💻 Teknologi yang Digunakan
 
