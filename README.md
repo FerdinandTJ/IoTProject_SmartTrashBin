@@ -52,7 +52,7 @@ Mengurangi sentuhan langsung antara petugas kebersihan dengan tempat sampah keti
 ![Flowchart](Flowchart.jpg)
 
 ### Diagram Rangkaian
-![Diagram Rangkaian](Diagram.jpg)
+![Diagram Rangkaian](DiagramBLokSistem.jpg)
 
 ### Simulasi Wokwi
 ![Wokwi Diagram](WokwiDiagram.jpg)
