@@ -76,7 +76,7 @@ Mengurangi sentuhan langsung antara petugas kebersihan dengan tempat sampah keti
 ![Flowchart](Flowchart.jpg)
 
 ### Diagram Rangkaian
-![Diagram Rangkaian](Diagram.jpg)
+![Diagram Rangkaian](DiagramBlokSistem.jpg)
 
 ---
 
@@ -97,7 +97,7 @@ Mengurangi sentuhan langsung antara petugas kebersihan dengan tempat sampah keti
 ### Rangkaian Hardware
 Berikut adalah implementasi rangkaian hardware yang telah dibuat:
 
-![Hardware Implementation](Rangkaian%20Hardware.jpg)
+![Hardware Implementation](RangkaianHardware.jpg)
 
 ### Komponen Hardware yang Digunakan
 
