@@ -117,11 +117,7 @@ Berikut adalah implementasi rangkaian hardware yang telah dibuat:
 **Link ke source code:** [GitHub Repository](https://github.com/FerdinandTJ/IoTProject_SmartTrashBin/blob/main/Code/main.py)
 
 ### 📚 Dependencies dan Library
-- **WiFi Library**: untuk konektivitas wireless
-- **WebServer Library**: untuk membuat web interface
-- **NewPing Library**: untuk sensor ultrasonik
 - **Servo Library**: untuk kontrol motor servo
-- **ArduinoJson Library**: untuk handling data JSON
 
 ---
 
@@ -132,11 +128,7 @@ Berikut adalah implementasi rangkaian hardware yang telah dibuat:
 **Link ke integration code:** [GitHub Integration Branch](https://github.com/FerdinandTJ/IoTProject_SmartTrashBin/blob/main/Code/main.py)
 
 ### 📚 Library untuk Integrasi
-- **WiFi Library**: Konektivitas jaringan
-- **WebServer Library**: Interface web
-- **NewPing Library**: Sensor ultrasonik
 - **Servo Library**: Kontrol motor servo
-- **ArduinoJson Library**: Data handling JSON
 
 ---
 
@@ -153,8 +145,7 @@ Berikut adalah implementasi rangkaian hardware yang telah dibuat:
 - ✅ **Test 1**: Deteksi kepenuhan sampah - **PASSED**
 - ✅ **Test 2**: Kontrol buka-tutup otomatis - **PASSED**  
 - ✅ **Test 3**: Notifikasi real-time ke website - **PASSED**
-- ✅ **Test 4**: Pencatatan aktivitas harian - **PASSED**
-- ✅ **Test 5**: Responsifitas web interface - **PASSED**
+- ✅ **Test 4**: Responsifitas web interface - **PASSED**
 
 ### Penyempurnaan yang harus dilakukan
 1. **Kalibrasi Sensor**: Menyesuaikan threshold sensor ultrasonik
