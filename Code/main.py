@@ -6,11 +6,9 @@ import _thread
 import socket
 import json
 
-# --- KONFIGURASI JARINGAN WIFI ---
 WIFI_SSID = "hihihihi"
 WIFI_PASSWORD = "123456789"
 
-# --- KONTEN WEB (HTML, CSS, JAVASCRIPT) ---
 HTML_CONTENT = """
 <!DOCTYPE html>
 <html lang="id">
@@ -88,7 +86,6 @@ HTML_CONTENT = """
 </html>
 """
 
-# --- KONFIGURASI PIN, DLL ---
 TRIG_PIN_1, ECHO_PIN_1 = 21, 19
 TRIG_PIN_2, ECHO_PIN_2 = 5, 18
 SERVO_PIN = 26
@@ -100,13 +97,11 @@ servo = Servo(SERVO_PIN)
 SUDUT_BUKA, SUDUT_TUTUP = 90, 0
 TINGGI_TEMPAT_SAMPAH_CM, AMBANG_BATAS_PENUH_CM = 10.7, 2.5
 
-# --- VARIABEL GLOBAL ---
 jumlah_pembuangan = 0
 persentase_kepenuhan = 0
 status_kepenuhan_text = "Inisialisasi..."
 status_string_web = "Memuat..."
 
-# --- KONEKSI WIFI ---
 def connect_wifi():
     wlan = network.WLAN(network.STA_IF)
     wlan.active(True)
@@ -119,7 +114,6 @@ def connect_wifi():
     print(f"Terhubung! Alamat IP: http://{ip_address}")
     return ip_address
 
-# --- LOGIKA SENSOR ---
 def measure_distance(trig_pin, echo_pin):
     trig_pin.value(0)
     utime.sleep_us(2)
@@ -152,7 +146,6 @@ def cek_status_kepenuhan():
         status_kepenuhan_text = f"Status: PENUH (Jarak: {jarak_sampah:.1f} cm)"
     return is_full, status_kepenuhan_text
 
-# --- WEB SERVER MENGGUNAKAN SOCKET ---
 def run_web_server():
     addr = socket.getaddrinfo('0.0.0.0', 80)[0][-1]
     s = socket.socket()
@@ -187,7 +180,6 @@ def run_web_server():
         except OSError as e:
             conn.close()
 
-# --- BAGIAN UTAMA YANG DIPERBAIKI ---
 def main_program():
     global jumlah_pembuangan
     servo.move_to_angle(SUDUT_TUTUP)
@@ -225,7 +217,6 @@ def main_program():
             
         utime.sleep(0.5)
 
-# --- EKSEKUSI (DIPERBAIKI) ---
 try:
     connect_wifi()
     _thread.start_new_thread(run_web_server, ())
